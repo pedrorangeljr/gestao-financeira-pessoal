@@ -1,0 +1,58 @@
+body {
+	background-color: #f5f7fb;
+	color: #212529;
+	min-height: 100vh;
+}
+
+.landing-page {
+	background-color: #ffffff;
+}
+
+.min-vh-75 {
+	min-height: 75vh;
+}
+
+.summary-item {
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+	padding: 0.85rem 0;
+}
+
+.income {
+	color: #198754;
+}
+
+.expense {
+	color: #dc3545;
+}
+
+.financial-card {
+	border: 0;
+	border-radius: 12px;
+	box-shadow: 0 3px 14px rgba(0, 0, 0, 0.05);
+}
+
+.income-card {
+	border-left: 4px solid #198754;
+}
+
+.expense-card {
+	border-left: 4px solid #dc3545;
+}
+
+.balance-card {
+	border-left: 4px solid #0d6efd;
+}
+
+.financial-card .card-body {
+	padding: 1.5rem;
+}
+
+.financial-card h2 {
+	font-weight: 700;
+}
+
+footer {
+	font-size: 0.9rem;
+}
